@@ -1,0 +1,98 @@
+[MASTER] 09:14:23.392 [pool-2-thread-1] WARN  TestSuiteGenerator - initializeTargetClass start！
+[MASTER] 09:14:26.842 [pool-2-thread-1] WARN  TestSuiteGenerator - init inheritance tree cost: 3449 ms.
+[MASTER] 09:14:27.240 [pool-2-thread-1] WARN  TestCaseExecutor - No stalled threads
+[MASTER] 09:14:27.240 [pool-2-thread-1] WARN  TestCaseExecutor - new thread group name is: Test_Execution_Group
+[MASTER] 09:14:31.113 [pool-2-thread-1] WARN  CheapPurityAnalyzer - kotlin.reflect.jvm.ReflectJvmMapping was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:31.114 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: kotlin.reflect.jvm.ReflectJvmMapping
+[MASTER] 09:14:31.613 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.springframework.web.context.request.FacesWebRequest was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:31.613 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.springframework.web.context.request.FacesWebRequest
+[MASTER] 09:14:33.292 [pool-2-thread-1] WARN  CheapPurityAnalyzer - reactor.netty.ByteBufFlux was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:33.292 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: reactor.netty.ByteBufFlux
+[MASTER] 09:14:33.292 [pool-2-thread-1] WARN  CheapPurityAnalyzer - reactor.netty.http.server.HttpServerRequest was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:33.292 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: reactor.netty.http.server.HttpServerRequest
+[MASTER] 09:14:33.292 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.handler.codec.http.HttpMethod was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:33.292 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: io.netty.handler.codec.http.HttpMethod
+[MASTER] 09:14:33.292 [pool-2-thread-1] WARN  CheapPurityAnalyzer - reactor.netty.http.server.HttpServerRequest was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:33.294 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.handler.codec.http.HttpResponseStatus was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:33.294 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: io.netty.handler.codec.http.HttpResponseStatus
+[MASTER] 09:14:33.745 [pool-2-thread-1] WARN  CheapPurityAnalyzer - joptsimple.OptionSet was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:33.745 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: joptsimple.OptionSet
+[MASTER] 09:14:35.078 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:35.078 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: io.netty.internal.tcnative.SSL
+[MASTER] 09:14:35.078 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:35.078 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:35.079 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:35.079 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:35.080 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 09:14:35.448 [pool-2-thread-1] WARN  TestCluster - generators size is 9085
+[MASTER] 09:14:36.692 [pool-2-thread-1] WARN  TestCluster - start remove only self generator
+[MASTER] 09:14:36.693 [pool-2-thread-1] WARN  TestCluster - start remove direct cycle 
+[MASTER] 09:14:36.864 [pool-2-thread-1] WARN  TestCluster - end remove direct cycle 
+[MASTER] 09:14:36.877 [pool-2-thread-1] WARN  TestSuiteGenerator - analyzeEnumDependency begin！
+[MASTER] 09:14:36.877 [pool-2-thread-1] WARN  TestSuiteGenerator - analyzeEnumDependency finish！
+[MASTER] 09:14:36.896 [pool-2-thread-1] WARN  JSONCodeAnalysis - JSONCodeAnalysis ...
+[MASTER] 09:14:36.896 [pool-2-thread-1] WARN  JSONCodeAnalysis - JSONCodeAnalysis end.
+[MASTER] 09:14:36.896 [pool-2-thread-1] WARN  TestSuiteGenerator - initializeTargetClass finish！
+[MASTER] 09:14:36.910 [pool-2-thread-1] WARN  CarvingManager - JUnit test class com.macro.mall.security.component.DynamicSecurityMetadataSource_SSTest: Class 'com/macro/mall/security/component/DynamicSecurityMetadataSource_SSTest.class' should be in target project, but could not be found! not exist.
+[MASTER] 09:14:36.910 [pool-2-thread-1] WARN  CarvingManager - JUnit test class smartunit.com.macro.mall.security.component.DynamicSecurityMetadataSource_SSTest: Class 'smartunit/com/macro/mall/security/component/DynamicSecurityMetadataSource_SSTest.class' should be in target project, but could not be found! not exist.
+[MASTER] 09:14:36.940 [pool-2-thread-1] WARN  CarvingManager - CarvingManager JUnitCore run Result: 0/0
+[MASTER] 09:14:36.940 [pool-2-thread-1] WARN  CarvingRunListener - CarvingRunListener getTestCases.
+[MASTER] 09:14:36.952 [pool-2-thread-1] WARN  TestSuiteGenerator - Generate new test suite
+[MASTER] 09:14:37.022 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/smartunit/codeWorkspace/.smartunit/smartunit-seeds/com.macro.mall.security.component.DynamicSecurityMetadataSource
+[MASTER] 09:14:37.040 [pool-2-thread-1] WARN  AbstractMOSA - Before init, carved stock test size is 0
+[MASTER] 09:14:37.040 [pool-2-thread-1] WARN  AbstractMOSA - Before init, class branch size is 4
+[MASTER] 09:14:37.040 [pool-2-thread-1] WARN  AbstractMOSA - Before init, population size is 50
+[MASTER] 09:14:37.041 [pool-2-thread-1] WARN  AbstractMOSA - Carved stock tests size 0
+[MASTER] 09:14:37.041 [pool-2-thread-1] WARN  AbstractMOSA - Loading stock tests population 0 individuals
+[MASTER] 09:14:37.041 [pool-2-thread-1] WARN  DynaMOSA - Loading previous population for initialize.
+[MASTER] 09:14:37.041 [pool-2-thread-1] WARN  DynaMOSA - Loading previous population 0 individuals.
+[MASTER] 09:14:37.041 [pool-2-thread-1] WARN  GeneticAlgorithm - Creating random population with size 50
+[MASTER] 09:14:37.088 [pool-2-thread-1] WARN  DynaMOSA - Loading random population 50 individuals.
+[MASTER] 09:14:37.088 [pool-2-thread-1] WARN  DynaMOSA - Loading total population 50 individuals.
+[MASTER] 09:14:37.889 [pool-2-thread-1] WARN  DynaMOSA - Before evolve, currentTimestamp is 1698311677889
+[MASTER] 09:14:37.889 [pool-2-thread-1] WARN  DynaMOSA - Before evolve, Properties search_budge is 135
+[MASTER] 09:14:38.050 [pool-2-thread-1] WARN  TestCluster - Failed to check cache for java.util.Map<K, V> : Type points to itself
+[MASTER] 09:14:39.793 [pool-2-thread-1] WARN  TestCluster - Failed to check cache for java.util.concurrent.ForkJoinTask<V> : Type points to itself
+[MASTER] 09:16:53.048 [pool-2-thread-1] WARN  DynaMOSA - After evolve, currentTimestamp is 1698311813048, evolve times is 1675
+[MASTER] 09:16:53.237 [pool-2-thread-1] WARN  TestSuiteGenerator - Append stock tests to new test suite generated size 0
+[MASTER] 09:16:53.237 [pool-2-thread-1] WARN  TestSuiteGenerator - start postProcessTests with suite size 13
+[MASTER] 09:16:53.238 [pool-2-thread-1] WARN  TestSuiteGenerator - combine seed testcase, total size now is 13
+[MASTER] 09:16:53.256 [pool-2-thread-1] WARN  TestSuiteGenerator - after remove test exception test case size is 13
+[MASTER] 09:16:53.256 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests testSuite before inline, size is 13
+[MASTER] 09:16:53.277 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests testSuite after inline, size is 13
+[MASTER] 09:16:53.280 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests testSuite size before minimize: 13
+[MASTER] 09:16:53.281 [pool-2-thread-1] WARN  TestSuiteGenerator - Start remove redundant test suite
+[MASTER] 09:16:53.284 [pool-2-thread-1] WARN  TestSuiteMinimizer - Before removing redundant tests with rerun, size is 13, sort algo is CoveredGoalFirstExceptionSecond
+[MASTER] 09:16:53.291 [pool-2-thread-1] WARN  TestSuiteMinimizer - After removing redundant tests, size is 6, algo is CoveredGoalFirstExceptionSecond
+[MASTER] 09:16:53.291 [pool-2-thread-1] WARN  TestSuiteGenerator - Remove redundant test suite DONE
+[MASTER] 09:16:53.291 [pool-2-thread-1] WARN  TestSuiteGenerator - Reduce NPE start
+[MASTER] 09:16:53.293 [pool-2-thread-1] WARN  TestSuiteGenerator - Reduce NPE end
+[MASTER] 09:16:53.294 [pool-2-thread-1] WARN  TestSuiteGenerator - Start second remove redundant test suite
+[MASTER] 09:16:53.295 [pool-2-thread-1] WARN  TestSuiteMinimizer - Before removing redundant tests with rerun, size is 6, sort algo is ExceptionFirstCoveredSecond
+[MASTER] 09:16:53.298 [pool-2-thread-1] WARN  TestSuiteMinimizer - After removing redundant tests, size is 6, algo is ExceptionFirstCoveredSecond
+[MASTER] 09:16:53.298 [pool-2-thread-1] WARN  TestSuiteGenerator - second remove redundant test suite done
+[MASTER] 09:16:53.300 [pool-2-thread-1] WARN  TestSuiteGenerator - Start pre minimizing test suite
+[MASTER] 09:16:53.300 [pool-2-thread-1] WARN  PreTestSuiteMiniMizer - Before preMinimization 33 total length of test suite
+[MASTER] 09:16:53.336 [pool-2-thread-1] WARN  PreTestSuiteMiniMizer - After preMinimization 27  total length of test suite
+[MASTER] 09:16:53.336 [pool-2-thread-1] WARN  PreTestSuiteMiniMizer - preMinimization cost: 36 ms.
+[MASTER] 09:16:53.336 [pool-2-thread-1] WARN  TestSuiteGenerator - Pre minimize test suite DONE
+[MASTER] 09:16:53.336 [pool-2-thread-1] WARN  TestSuiteGenerator - Start gracefully delete test case
+[MASTER] 09:16:53.402 [pool-2-thread-1] WARN  TestSuiteGenerator - gracefully delete DONE
+[MASTER] 09:16:53.402 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests testSuite size after minimize: 6
+[MASTER] 09:16:53.430 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests minimize methodName after[getAttributes, getAllConfigAttributes, supports, clearDataSource, loadDataSource]
+[MASTER] 09:16:53.472 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests testSuite size before building assert 6
+[MASTER] 09:16:53.472 [pool-2-thread-1] WARN  TestSuiteGenerator - Start adding assertions
+[MASTER] 09:16:53.690 [pool-2-thread-1] WARN  TestCaseExecutor - No stalled threads
+[MASTER] 09:16:53.690 [pool-2-thread-1] WARN  TestCaseExecutor - thread group is not null, name is Test_Execution_Group, active count is 0
+[MASTER] 09:16:53.690 [pool-2-thread-1] WARN  TestCaseExecutor - thread group is not null, after countThreads, active count is 0
+[MASTER] 09:16:53.690 [pool-2-thread-1] WARN  TestCaseExecutor - new thread group name is: Test_Execution_Group
+[MASTER] 09:16:53.992 [pool-2-thread-1] WARN  TestSuiteGenerator - Add assertions DONE
+[MASTER] 09:16:53.992 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests testSuite size after building assert 6
+[MASTER] 09:16:53.993 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests  assert kill mutation[1, 6, 9]
+[MASTER] 09:16:53.995 [pool-2-thread-1] WARN  TestSuiteMinimizer - Before removing redundant tests with rerun, size is 6, sort algo is CoveredGoalFirstExceptionSecond
+[MASTER] 09:16:54.035 [pool-2-thread-1] WARN  TestSuiteMinimizer - After removing redundant tests, size is 5, algo is CoveredGoalFirstExceptionSecond
+[MASTER] 09:16:54.036 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests  assert minimize kill mutation[1, 6, 9]
+[MASTER] 09:16:54.036 [pool-2-thread-1] WARN  TestSuiteGenerator - Start JUNIT COMPILE AND CHECK, test suite size is 5
+[MASTER] 09:16:57.801 [pool-2-thread-1] WARN  TestSuiteGenerator - JUNIT COMPILE AND CHECK DONE, test cases size is 5
+[MASTER] 09:16:57.801 [pool-2-thread-1] WARN  TestSuiteGenerator - postProcessTests saving tests to oss
+[MASTER] 09:17:28.185 [pool-2-thread-1] WARN  TestSuiteGenerator - Save to oss failed
